@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Navbar, NavbarBrand } from "reactstrap";
 import vaporwaveTrees from "./app/assets/img/vaporwaveTrees.png";
+import ClassCard from "./features/classes/ClassCard.js";
+import { CLASSES } from "./app/shared/CLASSES";
 import './App.css';
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      Hello World!
+      <ClassCard class={CLASSES[0]}/>
     </div>
   );
 }
