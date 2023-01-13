@@ -46,13 +46,13 @@ const Footer = () => {
                 className="btn btn-link"
                 href="mailto:notreal@notreal.co"
               >
-                <i className="fa fa-envelope-o" /> campsites@nucamp.co
+                <i className="fa fa-envelope-o" /> info@teachleague.co
               </a>
             </Col>
           </Row>
           <Row>
             <Col className="text-center">
-            <br />
+              <br />
               <BottomText />
             </Col>
           </Row>
