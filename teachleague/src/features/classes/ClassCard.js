@@ -5,11 +5,11 @@ const ClassCard = (props) => {
           <Card>
             <CardImg
               width="100%"
-              src={props.class.image}
-              alt={props.class.name}
+              src={props.course.image}
+              alt={props.course.name}
             />{" "}
             <CardImgOverlay>
-              <CardTitle>{props.class.name}</CardTitle>
+              <CardTitle>{props.course.name}</CardTitle>
             </CardImgOverlay>
           </Card>
         );

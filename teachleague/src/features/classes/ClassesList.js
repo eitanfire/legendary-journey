@@ -5,10 +5,10 @@ import ClassCard from "./ClassCard";
 const ClassesList = () => {
   return (
     <Row className="ms-auto">
-      {CLASSES.map((plan) => {
+      {CLASSES.map((course) => {
         return (
-          <Col md="5" className="m-4" key={plan.id}>
-            <ClassCard class={plan} />
+          <Col md="5" className="m-4" key={course.id}>
+            <ClassCard course={course} />
           </Col>
         );
       })}
