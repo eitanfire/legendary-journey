@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
+import BottomText from "../utils/BottomText";
 
 const Footer = () => {
     return (
@@ -47,6 +48,12 @@ const Footer = () => {
               >
                 <i className="fa fa-envelope-o" /> campsites@nucamp.co
               </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+            <br />
+              <BottomText />
             </Col>
           </Row>
         </Container>
