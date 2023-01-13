@@ -1,17 +1,13 @@
-import React from 'react';
-import ClassesList from "./features/classes/ClassesList.js";
-// import { CLASSES } from "./app/shared/CLASSES";
+import CoursesDirectoryPage from "./pages/CoursesDirectoryPage";
 import Header from "./components/Header";
+import Footer from "./components/Footer.js";
 import './App.css';
-import Footer from './components/Footer.js';
 
 function App() {
   return (
     <div className="App">
-    <Header />
-      <ClassesList 
-
-      />
+      <Header />
+      <CoursesDirectoryPage />
       <Footer />
     </div>
   );
