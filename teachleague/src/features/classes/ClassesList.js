@@ -1,8 +1,11 @@
 import { CLASSES } from "../../app/shared/CLASSES";
 import { Col, Row } from "reactstrap";
 import ClassCard from "./ClassCard";
+import { selectAllCourses } from "./classesSlice";
 
 const ClassesList = () => {
+  const courses = selectAllCourses();
+
   return (
     <Row className="ms-auto">
       {CLASSES.map((course) => {

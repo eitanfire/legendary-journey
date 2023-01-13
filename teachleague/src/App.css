@@ -36,8 +36,8 @@ h2 {
   border-bottom: 1px solid #000;
   opacity: .85;
   background:
-  radial-gradient(ellipse at top, #6699CC, transparent),
-  radial-gradient(ellipse at bottom, #6699CC, transparent);
+  radial-gradient(ellipse at top, #0d8f00, transparent),
+  radial-gradient(ellipse at bottom, #fffbdd, transparent);
   margin-right: -11rem;
   color: white;
 }
@@ -56,7 +56,7 @@ h2 {
 
 .navbar-dark {
     background-color: #901cad;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+    background-image: linear-gradient(to right, #0d8f00, #7eb400, #e3e919, #fffb8e, #fffbdd);
     margin-bottom: 2rem;
     min-height: 8rem;
 }
