@@ -3,6 +3,7 @@ import ClassesList from "./features/classes/ClassesList.js";
 // import { CLASSES } from "./app/shared/CLASSES";
 import Header from "./components/Header";
 import './App.css';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ClassesList 
 
       />
+      <Footer />
     </div>
   );
 }
