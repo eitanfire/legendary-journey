@@ -36,10 +36,12 @@ h2 {
   border-bottom: 1px solid #000;
   opacity: .85;
   background:
-  radial-gradient(ellipse at top, #0d8f00, transparent),
-  radial-gradient(ellipse at bottom, #fffbdd, transparent);
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #f90497, transparent),
+    radial-gradient(ellipse at bottom, #d1c3b2, transparent);
   margin-right: -11rem;
   color: white;
+  font-size: larger;
 }
 
 .navbar-brand {
@@ -55,11 +57,32 @@ h2 {
 }
 
 .navbar-dark {
-    background-color: #901cad;
-    background-image: linear-gradient(to right, #0d8f00, #7eb400, #e3e919, #fffb8e, #fffbdd);
+    /* background-color: #901cad; */
+    /* background-image: linear-gradient(to right, #0d8f00, #7eb400, #e3e919, #fffb8e, #fffbdd);
     margin-bottom: 2rem;
-    min-height: 8rem;
+    min-height: 8rem; */
+
+    
+  /* text-indent: 7em; */
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  /* opacity: 0.85; */
+  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
+      no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
+  /* margin-top: 1.25rem; */
+  /* margin-bottom: 1em; */
+  /* padding-top: 1.5rem; */
+  /* padding-bottom: 1.5rem; */
+  /* margin-right: -11rem; */
+  /* text-align: center; */
+  /* font-size: larger; */
+  /* width: 100%; */
+  /* height: 100%; */
 }
+
 
 .page-enter {
     opacity: 0;
