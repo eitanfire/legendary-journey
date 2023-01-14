@@ -7,7 +7,7 @@ import Epics from "../assets/img/epics-banner.png";
 import Programming from "../assets/img/programming-banner.png";
 import Survival from "../assets/img/survive-the-world-banner.png";
 
-export const CLASSES = [
+export const COURSES = [
   {
     id: 0,
     name: "📜 Philosophy",

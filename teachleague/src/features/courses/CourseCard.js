@@ -1,6 +1,6 @@
 import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
 
-const ClassCard = ({ course }) => {
+const CourseCard = ({ course }) => {
   const { image, name } = course;
         return (
           <Card>
@@ -16,4 +16,4 @@ const ClassCard = ({ course }) => {
         );
 }
 
-export default ClassCard;
+export default CourseCard;

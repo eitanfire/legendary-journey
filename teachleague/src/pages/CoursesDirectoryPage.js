@@ -1,7 +1,7 @@
 import { Container, Row, Col, Button } from "reactstrap";
-import CourseDetail from "../features/classes/CourseDetail";
-import ClassesList from "../features/classes/ClassesList";
-import { selectRandomCourse } from "../features/classes/classesSlice";
+import CourseDetail from "../features/courses/CourseDetail";
+import CoursesList from "../features/courses/CoursesList";
+import { selectRandomCourse } from "../features/courses/coursesSlice";
 
 const CoursesDirectoryPage = () => {
     const selectedCourse = selectRandomCourse();
@@ -10,7 +10,7 @@ const CoursesDirectoryPage = () => {
       <Container>
         <Row>
           <Col sm="5" md="7">
-            <ClassesList />
+            <CoursesList />
           </Col>
           <Col sm="7" md="5">
             <CourseDetail course={selectedCourse} />
