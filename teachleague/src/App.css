@@ -80,3 +80,16 @@ h2 {
     opacity: 0;
     transition: 300ms ease-in;
 }
+
+#heart {
+  transition: 0.1s;
+  border: none;
+  cursor: pointer;
+  filter: grayscale(1);
+}
+
+#heart:hover {
+  font-size: 2rem;
+  transform: scale(1.23);
+  filter: grayscale(0);
+}

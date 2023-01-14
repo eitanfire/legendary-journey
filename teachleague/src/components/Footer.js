@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
-import BottomText from "../utils/BottomText";
+import BottomText from "./BottomText";
 
 const Footer = () => {
     return (
