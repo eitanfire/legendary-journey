@@ -32,6 +32,7 @@ h2 {
 .site-footer {
     padding: 20px 0;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   opacity: .85;
@@ -42,6 +43,7 @@ h2 {
   margin-right: -11rem;
   color: white;
   font-size: larger;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -57,13 +59,12 @@ h2 {
 }
 
 .navbar-dark {
-    /* background-color: #901cad; */
-    /* background-image: linear-gradient(to right, #0d8f00, #7eb400, #e3e919, #fffb8e, #fffbdd);
-    margin-bottom: 2rem;
-    min-height: 8rem; */
+    background-color: #901cad;
+    /* /* background-image: linear-gradient(to right, #0d8f00, #7eb400, #e3e919, #fffb8e, #fffbdd); */
+    min-height: 4rem;
 
     
-  /* text-indent: 7em; */
+   text-indent: 7em;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   /* opacity: 0.85; */
