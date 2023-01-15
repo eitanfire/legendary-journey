@@ -6,11 +6,11 @@ h1,
 h2,
 h3,
 .card-body > .card-title {
-    font-family: 'Lobster', cursive;
+    font-family: 'Comfortaa', cursive;
 }
 
 .card-title {
-    font-weight: 500;
+    font-weight: 1000;
     font-size: 1.25rem;
 }
 
@@ -62,8 +62,6 @@ h2 {
     background-color: #901cad;
     /* /* background-image: linear-gradient(to right, #0d8f00, #7eb400, #e3e919, #fffb8e, #fffbdd); */
     min-height: 4rem;
-
-    
    text-indent: 7em;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
