@@ -14,6 +14,14 @@ h3,
   font-size: 1.25rem;
 }
 
+.card-detail-title {
+  writing-mode: vertical-rl;
+    /* transform: rotate(-90deg); */
+    position: absolute;
+    margin-left: 110%;
+    font-size: larger;
+}
+
 h2 {
   color: #3046c5;
 }
