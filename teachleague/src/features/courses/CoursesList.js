@@ -12,7 +12,7 @@ const CoursesList = ({ setCourseId }) => {
         return (
           <Col
             md="5"
-            className="m-3"
+            className="m-4"
             key={course.id}
             onClick={() => setCourseId(course.id)}
           >
